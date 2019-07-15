@@ -1,0 +1,173 @@
+body{
+    background-image: url("https://i.dailymail.co.uk/i/pix/2013/04/01/article-2302319-1907D8B6000005DC-523_1024x615_large.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Pirata One", cursive;
+}
+
+#tchest{
+    position: absolute;
+    left: 68%;
+    z-index: 0
+}
+
+#pirate{
+    position: absolute;
+    left: 8%;
+    z-index: 0
+}
+
+h1{
+    text-align: center;
+    font-size: 65px;
+    color: #C55C37;
+    text-shadow: 1px 1px black;
+    background-color: #EDCA76;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 400px;
+}
+
+#toptext{
+    color:#C55C37;
+    text-shadow: 1px 1px #FAEF05;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 200px
+}
+
+#tablediv{
+    width:100%;
+
+}
+
+h2{
+    font-size: 32px
+}
+
+l{
+    font-size: 24px
+}
+
+@keyframes bubble {
+    0%{
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    20%{
+        transform: scale(0.6);
+        opacity: 30;
+    }
+    40%{
+        transform: scale(1.0);
+        opacity: 60;
+    }
+    60%{
+        transform: scale(1.5);
+        opacity: 90;
+    }
+    80%{
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+#pirate{
+    animation-duration: 3s;
+    animation-name: bubble;
+}
+
+@keyframes twister {
+    0%{
+        transform:rotate(30deg);
+    }
+    20%{
+        transform:rotate(-30deg);
+    }
+    40%{
+        transform:rotate(120deg);
+    }
+    60%{
+        transform:rotate(-120deg);
+    }
+    80%{
+        transform:rotate(230deg);
+    }
+    100%{
+        transform:rotate(-230deg);
+    }
+}
+h1{
+    animation-duration: 3s;
+    animation-name: twister;
+}
+
+@keyframes bubble2 {
+    0%{
+        transform: scale(0.3);
+        opacity: 0;
+    }
+    20%{
+        transform: scale(0.9);
+        opacity: 30;
+    }
+    40%{
+        transform: scale(1.8);
+        opacity: 60;
+    }
+    60%{
+        transform: scale(1.2);
+        opacity: 90;
+    }
+    80%{
+        transform: scale(0.6);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+#tchest{
+    animation-duration: 3s;
+    animation-name: bubble2;
+}
+
+
+table{
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    border-style: solid;
+    border-width:3px;
+    flex: auto;
+    margin:0 auto;
+}
+#counter{
+    background-color: #EDCA76;
+    color: #C55C37;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 200px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 200px
+}
+td{
+    height: 198px;
+    width: 198px;
+    border-style: solid;
+    border-width: thin;
+    background-color: #05C4DB;
+    text-align: center;
+    font-size: 105px
+}
+
+button{
+    text-shadow: #ABF424;
+}

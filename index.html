@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt</title>
+        <link rel="icon" href="https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG61.png"/>
+        <link rel="stylesheet" type="text/css" href="treasureHunt.css" />
+    </head>
+    <img id= "tchest" src="https://pngimg.com/uploads/treasure_chest/treasure_chest_PNG41.png" alt="treasure" height="340px" />
+    <img id= "pirate" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Piratey%2C_vector_version.svg/789px-Piratey%2C_vector_version.svg.png" alt="pirate" height="340px" />
+    <body>
+        <h1 id="#top">Treasure Hunt</h1>
+
+        <div id="toptext">
+
+        <h2>Game Rules:</h2>
+        <l>
+            <li>Click the possible treasure locations.</li>
+            <li>Try to find the treasure!</li>
+            <li>If you land on a BOMB, you lose.</li>
+        </l>
+        </div>
+        <br />
+        <div id="tablediv">
+
+        <table>
+            <tr>
+                <td id=0 onclick="treasure(0)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+                <td id=1 onclick="treasure(1)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+                <td id=2 onclick="treasure(2)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+            </tr>
+            <tr>
+                <td id=3 onclick="treasure(3)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+                <td id=4 onclick="treasure(4)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+                <td id=5 onclick="treasure(5)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+            </tr>
+            <tr>
+                <td id=6 onclick="treasure(6)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+                <td id=7 onclick="treasure(7)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+                <td id=8 onclick="treasure(8)"><img src="https://i.dlpng.com/static/png/1293377_thumb.png" alt="coin" height=190px /></td>
+            </tr>
+        </table>
+
+        </div>
+
+        <br />
+        <div id="counter">
+        Turns Remaining: <a id=counter>9</a>
+        </div>
+        <br />
+    <br />
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <br />
+    <br />
+    <footer>
+        <a href="#top">Go to Top</a>
+        <a href="https://pirates.disney.com/" target="_blank"> Go to Pirates of the Carribean</a>
+        <br />
+        <a>&copy Treasure Hunt | Yumi & Rob"</a>
+    </footer>
+    <script type ="text/javascript" src="treasurehunt.js"></script>
+    </body>
+</html>
